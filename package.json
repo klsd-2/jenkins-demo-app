@@ -1,0 +1,8 @@
+{
+  "name": "jenkins-demo-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js app deployed by a Jenkins pipeline",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node --test" },
+  "license": "MIT"
+}
