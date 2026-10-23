@@ -36,3 +36,7 @@ The app is served at http://localhost:3000 after a successful build.
 
 ## Screenshots
 See the `screenshots/` folder.
+
+![Jenkins build success](screenshots/jenkins-build-success.png)
+![Health endpoint](screenshots/app-health.png)
+![App running](screenshots/app-running.png)
