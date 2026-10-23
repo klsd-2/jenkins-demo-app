@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
   }
   if (req.url === '/') {
     res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
-    res.end('Hello from the Jenkins pipeline!');
+    res.end('Hello from the Jenkins pipeline v2!');
     return;
   }
   res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });

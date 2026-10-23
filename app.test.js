@@ -18,7 +18,7 @@ test.after(() => { server.close(); });
 test('GET / returns greeting', async () => {
   const res = await fetch(baseUrl + '/');
   assert.strictEqual(res.status, 200);
-  assert.match(await res.text(), /Hello from the Jenkins pipeline/);
+  assert.match(await res.text(), /Hello from the Jenkins pipeline v2/);
 });
 
 test('GET /health returns ok', async () => {
